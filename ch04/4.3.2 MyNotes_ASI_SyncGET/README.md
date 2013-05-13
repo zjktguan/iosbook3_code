@@ -1,0 +1,1 @@
+4.3.2　ASIHTTPRequest框架使用同步GET请求 案例代码

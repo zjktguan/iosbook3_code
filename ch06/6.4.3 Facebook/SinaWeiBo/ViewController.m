@@ -1,0 +1,82 @@
+//
+//  ViewController.m
+//  WeiBo
+//
+//  Created by 关东升 on 13-1-3.
+//  本书网站：http://www.iosbook3.com
+//  智捷iOS课堂：http://www.51work6.com
+//  智捷iOS课堂在线课堂：http://v.51work6.com
+//  智捷iOS课堂新浪微博：http://weibo.com/u/3215753973
+//  作者微博：http://weibo.com/516inc
+//  官方csdn博客：http://blog.csdn.net/tonny_guan
+//  QQ：1575716557 邮箱：jylong06@163.com
+//
+
+#import "ViewController.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    //初始化UIRefreshControl
+    UIRefreshControl *rc = [[UIRefreshControl alloc] init];
+    rc.attributedTitle = [[NSAttributedString alloc]initWithString:@"下拉刷新"];
+    [rc addTarget:self action:@selector(refreshTableView) forControlEvents:UIControlEventValueChanged];
+    self.refreshControl = rc;
+    
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+-(void) refreshTableView
+{
+    if (self.refreshControl.refreshing) {
+        self.refreshControl.attributedTitle = [[NSAttributedString alloc]initWithString:@"加载中..."];
+        
+        // .... ...
+        
+    }
+}
+
+#pragma mark - Table View
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.listData.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
+    }
+    
+    NSDictionary  *rowDict = self.listData[indexPath.row];
+    cell.textLabel.text = [rowDict objectForKey:@"text"];
+    cell.detailTextLabel.text = [rowDict objectForKey:@"created_at"];
+    
+    return cell;
+}
+
+
+
+@end

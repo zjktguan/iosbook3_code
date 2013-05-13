@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'Newsstand' target in the 'Newsstand' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define CacheDirectory [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0]
+
+
+
+//继续下载期刊通知
+#define	ResumeDownloadNotification   @"com.51work6.newsstand.ResumeDownloadNotification"
+
+//下载期刊通知
+#define	DownloadNotification 	     @"com.51work6.newsstand.DownloadNotification"
+
+//更新UI通知
+#define	UpdateUINotification 	     @"com.51work6.newsstand.UpdateUINotification"

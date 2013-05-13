@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA765EA5168E746200F1BD7A /* MyCloudDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = CA765EA4168E745C00F1BD7A /* MyCloudDocument.m */; };
+		CA80A2C816BB80B7005F7260 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA80A2C616BB80B7005F7260 /* icon.png */; };
+		CA80A2C916BB80B7005F7260 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA80A2C716BB80B7005F7260 /* icon@2x.png */; };
+		CADFACC0168DDA780024A99C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFACBF168DDA780024A99C /* UIKit.framework */; };
+		CADFACC2168DDA780024A99C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFACC1168DDA780024A99C /* Foundation.framework */; };
+		CADFACC4168DDA780024A99C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CADFACC3168DDA780024A99C /* CoreGraphics.framework */; };
+		CADFACCA168DDA780024A99C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CADFACC8168DDA780024A99C /* InfoPlist.strings */; };
+		CADFACCC168DDA780024A99C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFACCB168DDA780024A99C /* main.m */; };
+		CADFACD0168DDA780024A99C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFACCF168DDA780024A99C /* AppDelegate.m */; };
+		CADFACD2168DDA780024A99C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CADFACD1168DDA780024A99C /* Default.png */; };
+		CADFACD4168DDA780024A99C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CADFACD3168DDA780024A99C /* Default@2x.png */; };
+		CADFACD6168DDA780024A99C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CADFACD5168DDA780024A99C /* Default-568h@2x.png */; };
+		CADFACD9168DDA790024A99C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADFACD7168DDA790024A99C /* MainStoryboard.storyboard */; };
+		CADFACDC168DDA790024A99C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADFACDB168DDA790024A99C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA10233B168DE4180074BBFC /* MyNotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = MyNotes.entitlements; sourceTree = "<group>"; };
+		CA765EA3168E745C00F1BD7A /* MyCloudDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCloudDocument.h; sourceTree = "<group>"; };
+		CA765EA4168E745C00F1BD7A /* MyCloudDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCloudDocument.m; sourceTree = "<group>"; };
+		CA80A2C616BB80B7005F7260 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CA80A2C716BB80B7005F7260 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CADFACBB168DDA780024A99C /* MyNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADFACBF168DDA780024A99C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CADFACC1168DDA780024A99C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CADFACC3168DDA780024A99C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CADFACC7168DDA780024A99C /* DoucmentStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoucmentStore-Info.plist"; sourceTree = "<group>"; };
+		CADFACC9168DDA780024A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CADFACCB168DDA780024A99C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CADFACCD168DDA780024A99C /* DoucmentStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoucmentStore-Prefix.pch"; sourceTree = "<group>"; };
+		CADFACCE168DDA780024A99C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CADFACCF168DDA780024A99C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CADFACD1168DDA780024A99C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CADFACD3168DDA780024A99C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CADFACD5168DDA780024A99C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CADFACD8168DDA790024A99C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CADFACDA168DDA790024A99C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CADFACDB168DDA790024A99C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CADFACB8168DDA780024A99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADFACC0168DDA780024A99C /* UIKit.framework in Frameworks */,
+				CADFACC2168DDA780024A99C /* Foundation.framework in Frameworks */,
+				CADFACC4168DDA780024A99C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CADFACB0168DDA780024A99C = {
+			isa = PBXGroup;
+			children = (
+				CA10233B168DE4180074BBFC /* MyNotes.entitlements */,
+				CADFACC5168DDA780024A99C /* DoucmentStore */,
+				CADFACBE168DDA780024A99C /* Frameworks */,
+				CADFACBC168DDA780024A99C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CADFACBC168DDA780024A99C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CADFACBB168DDA780024A99C /* MyNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CADFACBE168DDA780024A99C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CADFACBF168DDA780024A99C /* UIKit.framework */,
+				CADFACC1168DDA780024A99C /* Foundation.framework */,
+				CADFACC3168DDA780024A99C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CADFACC5168DDA780024A99C /* DoucmentStore */ = {
+			isa = PBXGroup;
+			children = (
+				CA765EA3168E745C00F1BD7A /* MyCloudDocument.h */,
+				CA765EA4168E745C00F1BD7A /* MyCloudDocument.m */,
+				CADFACCE168DDA780024A99C /* AppDelegate.h */,
+				CADFACCF168DDA780024A99C /* AppDelegate.m */,
+				CADFACD7168DDA790024A99C /* MainStoryboard.storyboard */,
+				CADFACDA168DDA790024A99C /* ViewController.h */,
+				CADFACDB168DDA790024A99C /* ViewController.m */,
+				CADFACC6168DDA780024A99C /* Supporting Files */,
+			);
+			path = DoucmentStore;
+			sourceTree = "<group>";
+		};
+		CADFACC6168DDA780024A99C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA80A2C616BB80B7005F7260 /* icon.png */,
+				CA80A2C716BB80B7005F7260 /* icon@2x.png */,
+				CADFACC7168DDA780024A99C /* DoucmentStore-Info.plist */,
+				CADFACC8168DDA780024A99C /* InfoPlist.strings */,
+				CADFACCB168DDA780024A99C /* main.m */,
+				CADFACCD168DDA780024A99C /* DoucmentStore-Prefix.pch */,
+				CADFACD1168DDA780024A99C /* Default.png */,
+				CADFACD3168DDA780024A99C /* Default@2x.png */,
+				CADFACD5168DDA780024A99C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CADFACBA168DDA780024A99C /* MyNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADFACDF168DDA790024A99C /* Build configuration list for PBXNativeTarget "MyNotes" */;
+			buildPhases = (
+				CADFACB7168DDA780024A99C /* Sources */,
+				CADFACB8168DDA780024A99C /* Frameworks */,
+				CADFACB9168DDA780024A99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNotes;
+			productName = DoucmentStore;
+			productReference = CADFACBB168DDA780024A99C /* MyNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CADFACB2168DDA780024A99C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = eorient;
+			};
+			buildConfigurationList = CADFACB5168DDA780024A99C /* Build configuration list for PBXProject "MyNotes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CADFACB0168DDA780024A99C;
+			productRefGroup = CADFACBC168DDA780024A99C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CADFACBA168DDA780024A99C /* MyNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CADFACB9168DDA780024A99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADFACCA168DDA780024A99C /* InfoPlist.strings in Resources */,
+				CADFACD2168DDA780024A99C /* Default.png in Resources */,
+				CADFACD4168DDA780024A99C /* Default@2x.png in Resources */,
+				CADFACD6168DDA780024A99C /* Default-568h@2x.png in Resources */,
+				CADFACD9168DDA790024A99C /* MainStoryboard.storyboard in Resources */,
+				CA80A2C816BB80B7005F7260 /* icon.png in Resources */,
+				CA80A2C916BB80B7005F7260 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CADFACB7168DDA780024A99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADFACCC168DDA780024A99C /* main.m in Sources */,
+				CADFACD0168DDA780024A99C /* AppDelegate.m in Sources */,
+				CADFACDC168DDA790024A99C /* ViewController.m in Sources */,
+				CA765EA5168E746200F1BD7A /* MyCloudDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CADFACC8168DDA780024A99C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADFACC9168DDA780024A99C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CADFACD7168DDA790024A99C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CADFACD8168DDA790024A99C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CADFACDD168DDA790024A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CADFACDE168DDA790024A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CADFACE0168DDA790024A99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyNotes.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoucmentStore/DoucmentStore-Prefix.pch";
+				INFOPLIST_FILE = "DoucmentStore/DoucmentStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CADFACE1168DDA790024A99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MyNotes.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoucmentStore/DoucmentStore-Prefix.pch";
+				INFOPLIST_FILE = "DoucmentStore/DoucmentStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CADFACB5168DDA780024A99C /* Build configuration list for PBXProject "MyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADFACDD168DDA790024A99C /* Debug */,
+				CADFACDE168DDA790024A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CADFACDF168DDA790024A99C /* Build configuration list for PBXNativeTarget "MyNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADFACE0168DDA790024A99C /* Debug */,
+				CADFACE1168DDA790024A99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CADFACB2168DDA780024A99C /* Project object */;
+}

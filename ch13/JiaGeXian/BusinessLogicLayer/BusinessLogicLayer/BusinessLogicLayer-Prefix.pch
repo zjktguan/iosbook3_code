@@ -1,0 +1,24 @@
+//
+// Prefix header for all source files of the 'BusinessLogicLayer' target in the 'BusinessLogicLayer' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
+
+#define ARC_ENABLED
+
+//定义BL关键字查询成功通知
+#define	BLQueryKeyFinishedNotification      @"BLQueryKeyFinishedNotification"
+//定义BL关键字查询失败通知
+#define	BLQueryKeyFailedNotification	    @"BLQueryKeyFailedNotification"
+
+//定义BL查询酒店成功通知
+#define	BLQueryHotelFinishedNotification    @"BLQueryHotelFinishedNotification"
+//定义BL查询酒店失败通知
+#define	BLQueryHotelFailedNotification	    @"BLQueryHotelFailedNotification"
+
+//定义BL查询酒店房间成功通知
+#define	BLQueryRoomFinishedNotification	    @"BLQueryRoomFinishedNotification"
+//定义BL查询酒店房间失败通知
+#define	BLQueryRoomFailedNotification	    @"BLQueryRoomFailedNotification"

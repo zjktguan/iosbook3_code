@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA347D8616BB82CC0040E119 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CA347D8416BB82CC0040E119 /* icon.png */; };
+		CA347D8716BB82CC0040E119 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA347D8516BB82CC0040E119 /* icon@2x.png */; };
+		CAD02751167C56DC003C140E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD02750167C56DC003C140E /* UIKit.framework */; };
+		CAD02753167C56DC003C140E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD02752167C56DC003C140E /* Foundation.framework */; };
+		CAD02755167C56DC003C140E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD02754167C56DC003C140E /* CoreGraphics.framework */; };
+		CAD0275B167C56DC003C140E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD02759167C56DC003C140E /* InfoPlist.strings */; };
+		CAD0275D167C56DC003C140E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD0275C167C56DC003C140E /* main.m */; };
+		CAD02761167C56DC003C140E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD02760167C56DC003C140E /* AppDelegate.m */; };
+		CAD02763167C56DC003C140E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD02762167C56DC003C140E /* Default.png */; };
+		CAD02765167C56DC003C140E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD02764167C56DC003C140E /* Default@2x.png */; };
+		CAD02767167C56DC003C140E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD02766167C56DC003C140E /* Default-568h@2x.png */; };
+		CAD0276A167C56DC003C140E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAD02768167C56DC003C140E /* MainStoryboard.storyboard */; };
+		CAD0276D167C56DC003C140E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAD0276C167C56DC003C140E /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA347D8416BB82CC0040E119 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CA347D8516BB82CC0040E119 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		CAD0274C167C56DC003C140E /* TCPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD02750167C56DC003C140E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CAD02752167C56DC003C140E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CAD02754167C56DC003C140E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAD02758167C56DC003C140E /* TCPClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TCPClient-Info.plist"; sourceTree = "<group>"; };
+		CAD0275A167C56DC003C140E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CAD0275C167C56DC003C140E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CAD0275E167C56DC003C140E /* TCPClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCPClient-Prefix.pch"; sourceTree = "<group>"; };
+		CAD0275F167C56DC003C140E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CAD02760167C56DC003C140E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CAD02762167C56DC003C140E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CAD02764167C56DC003C140E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CAD02766167C56DC003C140E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CAD02769167C56DC003C140E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CAD0276B167C56DC003C140E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CAD0276C167C56DC003C140E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD02749167C56DC003C140E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD02751167C56DC003C140E /* UIKit.framework in Frameworks */,
+				CAD02753167C56DC003C140E /* Foundation.framework in Frameworks */,
+				CAD02755167C56DC003C140E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAD02741167C56DC003C140E = {
+			isa = PBXGroup;
+			children = (
+				CAD02756167C56DC003C140E /* TCPClient */,
+				CAD0274F167C56DC003C140E /* Frameworks */,
+				CAD0274D167C56DC003C140E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD0274D167C56DC003C140E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD0274C167C56DC003C140E /* TCPClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD0274F167C56DC003C140E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD02750167C56DC003C140E /* UIKit.framework */,
+				CAD02752167C56DC003C140E /* Foundation.framework */,
+				CAD02754167C56DC003C140E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAD02756167C56DC003C140E /* TCPClient */ = {
+			isa = PBXGroup;
+			children = (
+				CAD0275F167C56DC003C140E /* AppDelegate.h */,
+				CAD02760167C56DC003C140E /* AppDelegate.m */,
+				CAD02768167C56DC003C140E /* MainStoryboard.storyboard */,
+				CAD0276B167C56DC003C140E /* ViewController.h */,
+				CAD0276C167C56DC003C140E /* ViewController.m */,
+				CAD02757167C56DC003C140E /* Supporting Files */,
+			);
+			path = TCPClient;
+			sourceTree = "<group>";
+		};
+		CAD02757167C56DC003C140E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAD02758167C56DC003C140E /* TCPClient-Info.plist */,
+				CA347D8416BB82CC0040E119 /* icon.png */,
+				CA347D8516BB82CC0040E119 /* icon@2x.png */,
+				CAD02759167C56DC003C140E /* InfoPlist.strings */,
+				CAD0275C167C56DC003C140E /* main.m */,
+				CAD0275E167C56DC003C140E /* TCPClient-Prefix.pch */,
+				CAD02762167C56DC003C140E /* Default.png */,
+				CAD02764167C56DC003C140E /* Default@2x.png */,
+				CAD02766167C56DC003C140E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD0274B167C56DC003C140E /* TCPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD02770167C56DC003C140E /* Build configuration list for PBXNativeTarget "TCPClient" */;
+			buildPhases = (
+				CAD02748167C56DC003C140E /* Sources */,
+				CAD02749167C56DC003C140E /* Frameworks */,
+				CAD0274A167C56DC003C140E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCPClient;
+			productName = TCPClient;
+			productReference = CAD0274C167C56DC003C140E /* TCPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD02743167C56DC003C140E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = 516inc;
+			};
+			buildConfigurationList = CAD02746167C56DC003C140E /* Build configuration list for PBXProject "TCPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CAD02741167C56DC003C140E;
+			productRefGroup = CAD0274D167C56DC003C140E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD0274B167C56DC003C140E /* TCPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD0274A167C56DC003C140E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD0275B167C56DC003C140E /* InfoPlist.strings in Resources */,
+				CAD02763167C56DC003C140E /* Default.png in Resources */,
+				CAD02765167C56DC003C140E /* Default@2x.png in Resources */,
+				CAD02767167C56DC003C140E /* Default-568h@2x.png in Resources */,
+				CAD0276A167C56DC003C140E /* MainStoryboard.storyboard in Resources */,
+				CA347D8616BB82CC0040E119 /* icon.png in Resources */,
+				CA347D8716BB82CC0040E119 /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD02748167C56DC003C140E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD0275D167C56DC003C140E /* main.m in Sources */,
+				CAD02761167C56DC003C140E /* AppDelegate.m in Sources */,
+				CAD0276D167C56DC003C140E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAD02759167C56DC003C140E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD0275A167C56DC003C140E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CAD02768167C56DC003C140E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAD02769167C56DC003C140E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAD0276E167C56DC003C140E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CAD0276F167C56DC003C140E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD02771167C56DC003C140E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCPClient/TCPClient-Prefix.pch";
+				INFOPLIST_FILE = "TCPClient/TCPClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CAD02772167C56DC003C140E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TCPClient/TCPClient-Prefix.pch";
+				INFOPLIST_FILE = "TCPClient/TCPClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD02746167C56DC003C140E /* Build configuration list for PBXProject "TCPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD0276E167C56DC003C140E /* Debug */,
+				CAD0276F167C56DC003C140E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD02770167C56DC003C140E /* Build configuration list for PBXNativeTarget "TCPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD02771167C56DC003C140E /* Debug */,
+				CAD02772167C56DC003C140E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD02743167C56DC003C140E /* Project object */;
+}
